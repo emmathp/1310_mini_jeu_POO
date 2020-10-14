@@ -43,7 +43,8 @@ class Game
       You also can decide to attack one of the player:"
       @enemies.each do |player|
         if @enemies.life_points > 0  
-             
+        end
+      end
   end
 end
 
